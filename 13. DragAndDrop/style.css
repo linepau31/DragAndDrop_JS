@@ -1,0 +1,73 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f10d33, #ee13cd);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 50px;
+    color: pink;
+}
+
+.container-choix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case {
+    flex-shrink: 0;
+    height: 310px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 3px solid rgb(77, 10, 77);
+    background: pink;
+}
+
+#premiere-case {
+    margin-right: 30px;
+}
+
+.destroy {
+    /*poubelle*/
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    background: rgb(238, 88, 113);
+    border: 2px solid rgb(80, 2, 80);
+    color: rgb(80, 2, 80);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 300px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.container-cases {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
